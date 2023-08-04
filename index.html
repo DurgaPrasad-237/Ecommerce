@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initital-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>CricStore</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+
+    <body>
+        <section id="header">
+            <a href="#"><img src="logo.png" class="logo" alt=""></a>
+            <div>
+                <ul id="navbar">
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li id="cbag"><a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                    <img src="cross.png" onclick="closenav()">
+                </ul>
+            </div>
+            <div id="mobile">
+                <a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                <img src="hamburger.png" onclick="opennav()">
+            </div>
+        </section>
+        <section id="hero">
+            <h4>Exclusive Offers</h4>
+            <h2>Weekend deals</h2>
+            <h1>On all products</h1>
+            <p>save more with cupons upto 60% off!</p>
+            <button>Shop Now</button>
+        </section>
+
+        <section id="features" class="section-p1">
+            <div class="fe-box">
+                <img src="shipping.png">
+                <h6>Free Shipping</h6>
+            </div>
+            <div class="fe-box">
+                <img src="online-shopping.png">
+                <h6>Online Order</h6>
+            </div>
+            <div class="fe-box">
+                <img src="save-time.png">
+                <h6>Save Money</h6>
+            </div>
+
+            <div class="fe-box">
+                <img src="promotion.png">
+                <h6>Promotion</h6>
+            </div>
+            <div class="fe-box">
+                <img src="sale.png">
+                <h6>Happy Sale</h6>
+            </div>
+            <div class="fe-box">
+                <img src="customer-service.png">
+                <h6>24/7 Support</h6>
+            </div>
+        </section>
+
+        <section id="product1" class="section-p1">
+            <h2>Featured Product</h2>
+            <p>Elite Cricket <span>Collection</span></p>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="spartan.jpg">
+                    <div class="description">
+                        <span>Spartan</span>
+                        <h5>Spartan SIKANDER Blue Edition English Willow Cricket Bat - Grade 1</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>₹40,000</h4>
+                    </div>
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="big_BEA645.jpg">
+                    <div class="description">
+                        <span>Kookaburra</span>
+                        <h5>STORM PRO 1000 CRICKET BAT</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>₹4,000</h4>
+                    </div>
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="Gm.jpg">
+                    <div class="description">
+                        <span>GM</span>
+                        <h5>GM Mythos 303 English Willow Cricket Bat</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <h4>₹7,000</h4>
+                    </div>
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="thrax.jpg">
+                    <div class="description">
+                        <span>Thrax</span>
+                        <h5>Thrax Tournament Red Cricket Ball 12 Balls Set</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <h4>₹4,000</h4>
+                    </div>
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="spbag.jpg">
+                    <div class="description">
+                        <span>Spartan</span>
+                        <h5>Spartan SIKANDER Small Wheel Bag</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <h4>₹8,000</h4>
+                    </div>
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="kit.jpg">
+                    <div class="description">
+                        <span>Whitedot Sports</span>
+                        <h5>Whitedot Albatross English Willow Cricket Combo KIT (Mens/Larges, Right)</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>₹20,000</h4>
+                    </div>
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="puma.jpg">
+                    <div class="description">
+                        <span>Puma</span>
+                        <h5>Puma Men's Leather Future 20.3 Cricket Batting Gloves (White/Black, Right)</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>₹3,000</h4>
+                    </div>
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="adidas.jpg">
+                    <div class="description">
+                        <span>Adidas</span>
+                        <h5>INDIA CRICKET ODI JERSEY MEN</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>₹4,999</h4>
+                    </div>
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="banner" class="section-m1">
+            <h4>Repair Service</h4>
+            <h2>Up to <span>60% off</span> - All Accessories</h2>
+            <button class="normal">Explore More</button>
+        </section>
+
+        <section id="product1" class="section-p1">
+            <h2>New Arrivals</h2>
+            <p>New Designs and More Comfort</p>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="sleeves.jpg">
+                    <div class="description">
+                        <span>Kemford</span>
+                        <h5>Arm Sleeves for Men and Women  1 Pair  Tattoo, Sport and Sun Protection Covers  UPF 50</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>₹200</h4>
+                    </div>
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="guard.jpg">
+                    <div class="description">
+                        <span>DSC</span>
+                        <h5>Armor Cricket Abdominal Guard, Size - Mens, Color - Orange</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>₹150</h4>
+                    </div>
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="jacket.jpg">
+                    <div class="description">
+                        <span>Generic</span>
+                        <h5>Premium Indian Cricket Team Sleeveless Jacket for Cold Weather</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <h4>₹5,000</h4>
+                    </div>
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="ecb gilet.png">
+                    <div class="description">
+                        <span>Castore</span>
+                        <h5>ECB Training Anthem Jacket</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <h4>₹4,000</h4>
+                    </div>
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="trouser.png">
+                    <div class="description">
+                        <span>Castore</span>
+                        <h5>ECB Training Junior Trouser</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <h4>₹3,000</h4>
+                    </div>
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="helmet.png">
+                    <div class="description">
+                        <span>SG</span>
+                        <h5>SG Blazetech Coloured Cricket Helmet (Yellow)</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>₹2,000</h4>
+                    </div>
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="innerglove.jpg">
+                    <div class="description">
+                        <span>SG</span>
+                        <h5>CRICKET INNER GLOVES MEN SIZE -any HAND PLAYER</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>₹300</h4>
+                    </div>
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="hoddie.png">
+                    <div class="description">
+                        <span>Adidas</span>
+                        <h5>3-STRIPES HOODIE</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>₹4,999</h4>
+                    </div>
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="banner2" class="section-p1">
+            <div class="banner-box">
+                <h4>Crazy Deals</h4>
+                <h2>Buy 1 Get 1 Free</h2>
+                <span>The best classic jerseys and equipments on sale</span>
+                <button class="white">Learn More</button>
+            </div>
+            <div class="banner-box img2 box2">
+                <h4>IPL</h4>
+                <h2>Upcomming season</h2>
+                <span>The best classic IPL jerseys on sale at cricstore</span>
+                <button class="white">Collection</button>
+            </div>
+
+        </section>
+       
+        <section id="banner3">
+            <div class="banner-box">
+                <h2>SEASONAL SALE</h2>
+               <h3>Shoe Collection -50% OFF</h3>
+            </div>
+            <div class="banner-box banner-box31 b3clr">
+                <h2>BAT COLLECTION</h2>
+               <h3>Your Fav Brands 2023</h3>
+            </div>
+            <div class="banner-box banner-box32 b4clr">
+                <h2>SUN GLASSES</h2>
+               <h3>New Trendy</h3>
+            </div>
+        </section>
+
+        <section id="newsletter" class="section-p1 section-m1">
+            <div class="newstext">
+                <h4>Sign up for Newsletter</h4>
+                <p>Get a E-mail updates about our latest shop and <span>special offer</span></p>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="your mail address">
+                <button class="normal">Sign Up</button>
+            </div>
+        </section>
+        
+        <footer class="section-p1">
+            <div class="col">
+                <img src="logo.png" height="50px">
+                <h4>contact</h4>
+                <p><Strong>Address:</Strong> 123 x road, street 3, HYD</p>
+                <p><Strong>Phone:</Strong> +91 1111 1111 11 / +91 2222 2222 22</p>
+                <p><Strong>Hours:</Strong> 10:00 - 18:00, Mon - Sat</p>
+                <div class="follow">
+                    <h4>Follow us</h4>
+                    <div class="icon">
+                        <i class="fa fa-facebook-f"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-pinterest"></i>
+                        <i class="fa fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <h4>About</h4>
+                <a href="#">About Us</a>
+                <a href="#">Delivary Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & conditions</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+            <div class="col">
+                <h4>My Account</h4>
+                <a href="#">Sign In</a>
+                <a href="#">View Cart</a>
+                <a href="#">My WishList</a>
+                <a href="#">Track My Order</a>
+                <a href="#">Help</a>
+            </div>
+
+            <div class="col install">
+                <h4>Install App</h4>
+                <p> From App store or Google play</p>
+                <div class="row">
+                    <img src="appstore.png" height="100px;">
+                </div>
+                <p>Secured Payment Gateways</p>
+                <img class="x" src="payments.png" height="100px"> 
+            </div>
+
+            <div class="copyright">
+                <p>© Dp - HTML CSS cricstore Template</p>
+            </div>
+
+        </footer>
+
+
+
+       <script src="script.js"></script>
+    </body>
+</html>
